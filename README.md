@@ -29,10 +29,3 @@ The `Graph` type is used to represent undirected graphs. It has one field, named
 
 		# Show the graph g
 		show(g)
-
-		# This is a star graph
-		s = complement(subgraph(g, 5:10))
-
-		# Show its adjacency matrix
-		adjacency_matrix(s)
-
