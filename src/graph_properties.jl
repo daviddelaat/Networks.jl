@@ -1,0 +1,1 @@
+is_complete(g::Graph) = is_clique(g, nodes(g))
