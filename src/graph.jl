@@ -114,6 +114,8 @@ function subgraph(g::Graph, nodeset::Set)
             
     sg
 end
+subgraph(g::Graph, nodes::Range1) = subgraph(g, Set([nodes]...))
+
 
 copy(g::Graph) = subgraph(g, nodes(g))
 
